@@ -1,0 +1,10 @@
+- hosts: species-list
+  roles:
+    - common
+    - java
+    - tomcat
+    - webserver
+    - mysql
+    - nameindex
+    - i18n
+    - species-list

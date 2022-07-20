@@ -1,0 +1,12 @@
+- hosts: biocache-service-clusterdb
+  roles:
+    - common
+    - java
+    - tomcat
+    - webserver
+    - nameindex
+    - biocache-properties
+    - nameindex
+    - i18n
+    - biocache-service
+    - logger-client
